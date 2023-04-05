@@ -1,0 +1,35 @@
+<div class="card mx-auto" style="width: 80%;">
+  <img src="/public/img/{{imagen}}" class="card-img-top" alt="{{imagen}}" height="250px">
+  <div class="card-body">
+    <h5 class="card-title">{{titulo}}</h5>
+    <p class="card-text">{{contenido}}</p>
+    <p class="card-text">Fecha publicación: {{fecha}}</p>
+    <p class="card-text">Autor: {{autor}}</p>
+    <div class="d-flex justify-content-center">
+
+
+       {{{isLike like}}}
+
+        
+    </div>
+  
+  </div>
+</div>
+
+
+<style>
+      .fa {
+            font-size: 50px;
+            cursor: pointer;
+            user-select: none;
+        }
+        .like {
+            color: blue;
+        }
+        .dislike {
+            color: red;
+        }
+        .null {
+            color: gray;
+        }
+</style>

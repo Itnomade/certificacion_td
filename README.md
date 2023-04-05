@@ -9,7 +9,7 @@
 
 # Link de repositorio en GITHUB
 
-https://github.com/Itnomade/certificacion_javascript
+https://github.com/Itnomade/certificacion_td
 
 # INICIO DE PROYECTO:
 
